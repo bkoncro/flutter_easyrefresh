@@ -8,9 +8,10 @@ description: EasyRefresh example.
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
 version: 2.2.1+44
+publish_to: none
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
   flutter: ">=1.24.0"
 
 dependencies:
@@ -39,7 +40,6 @@ module:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
